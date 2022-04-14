@@ -184,6 +184,9 @@
                                                                                                                             align-items: center;
                                                                                                                             justify-content: center;
                                                                                                                             text-align: center;
+                                                                                                                            /* background-image: url("../image/bg.jpg");
+                                                                                                                            background-size: cover;
+                                                                                                                            background-repeat: no-repeat; */
                                                                                                                         }
                                                                                                                         
                                                                                                                         .home .content h3 {
@@ -201,7 +204,7 @@
                                                                                                                         
                                                                                                                         .home .share {
                                                                                                                             position: relative;
-                                                                                                                            top: 8rem;
+                                                                                                                            top: 5rem;
                                                                                                                             border-radius: .5rem;
                                                                                                                             /* box-shadow: var(--box-shadow); */
                                                                                                                             padding: 1rem;
