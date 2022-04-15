@@ -49,7 +49,7 @@
 
     <section class="home" id="home">
         <div class="content">
-            <img src="./image/zan.png" alt="" style="height: 150px; border: solid orange; border-radius: 20px 0px 20px 0px;">
+            <img src="./image/1.jpg" alt="" style="height: 150px; border: solid orange; border-radius: 20px 0px 20px 0px;">
             <h3>zan coulibaly</h3>
             <p class="typeText"></p>
             <a href="./cv/Zan_COULIBALY_CV.pdf" class="btn" target="_blank">Télécharger CV</a>
@@ -286,12 +286,12 @@
 
         <h1 class="heading"> <span>contact</span> me </h1>
 
-        <form method="contact.php" action="" id="contact">
-            <input type="text" name="nom" placeholder="votre nom" class="box">
-            <input type="email" name="email" placeholder="votre email" class="box">
-            <input type="text" name="subject" placeholder="subject" class="box">
-            <textarea name="message" class="box" placeholder="votre message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" name="submit" value="envoyer message" class="btn">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" id="nom" placeholder="votre nom" class="box">
+            <input type="email" id="email" placeholder="votre email" class="box">
+            <input type="text" id="subject" placeholder="subject" class="box">
+            <textarea id="message" class="box" placeholder="votre message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" id="submit" value="envoyer message" class="btn">
         </form>
 
     </section>
@@ -311,6 +311,7 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
 
 </body>
 
