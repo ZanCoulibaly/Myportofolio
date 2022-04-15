@@ -286,12 +286,12 @@
 
         <h1 class="heading"> <span>contact</span> me </h1>
 
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form onsubmit=";">
             <input type="text" id="nom" placeholder="votre nom" class="box">
             <input type="email" id="email" placeholder="votre email" class="box">
-            <input type="text" id="subject" placeholder="subject" class="box">
+            <input type="text" id="objet" placeholder="subject" class="box">
             <textarea id="message" class="box" placeholder="votre message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="envoyer message" class="btn">
+            <input type="submit" value="envoyer message" class="btn" id="btn">
         </form>
 
     </section>
